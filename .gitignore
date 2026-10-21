@@ -1,0 +1,19 @@
+# environment and secrets
+venv/
+.env
+!.env.example
+
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# python and jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
